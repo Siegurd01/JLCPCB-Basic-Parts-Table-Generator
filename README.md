@@ -1,5 +1,5 @@
 # JLCPCB-Basic-Parts-Table-Generator
-<img width="1214" height="717" alt="image" src="https://github.com/user-attachments/assets/75e3b695-82d1-4eeb-9a15-fbe0609e6169" />
+<img width="1222" height="915" alt="image" src="https://github.com/user-attachments/assets/0663a0b8-a86d-4f2f-babf-04956d6c3abb" />
 
 Scrapes the **JLCPCB Basic Parts** list from the UI, paginates through all pages, collects part codes and detail links, then opens each part detail page to extract enriched fields and exports everything to a single Excel file.
 
