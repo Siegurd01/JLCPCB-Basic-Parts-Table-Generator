@@ -112,7 +112,7 @@ This project visits hundreds of part-detail pages. Adding a small delay between 
 
 - **To avoid overloading the website.** “Polite scraping” practices recommend controlling request rate so you don’t create unnecessary load or degrade the site for normal users. 
 
-- **To reduce the risk of IP bans / anti-bot triggers.** Aggressive crawling can trigger alarms, incident response, or even outages; high-volume scraping has been publicly documented as causing operational issues and drawing attention from site operators. :contentReference[oaicite:2]{index=2}
+- **To reduce the risk of IP bans / anti-bot triggers.** Aggressive crawling can trigger alarms, incident response, or even outages; high-volume scraping has been publicly documented as causing operational issues and drawing attention from site operators.
 
 - **To align with crawler guidance (where applicable).** Site owners can publish crawling preferences (e.g., via `robots.txt` and directives such as `Crawl-delay` for some crawlers). Even when not universally supported, the underlying intent is to prevent overwhelming servers.
 
