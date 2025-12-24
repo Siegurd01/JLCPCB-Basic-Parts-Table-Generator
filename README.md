@@ -21,7 +21,7 @@ Scrapes the **JLCPCB Basic Parts** list from the UI, paginates through all pages
 <img width="1624" height="322" alt="image" src="https://github.com/user-attachments/assets/c21b9b28-453c-45ec-889f-ede7d73f656d" />
 
 Default output file:
-- `jlcpcb_basic_parts_with_links_enriched.xlsx`
+- `jlcpcb_basic_parts_2025-12-24.xlsx`
 
 Columns:
 - `Code`
