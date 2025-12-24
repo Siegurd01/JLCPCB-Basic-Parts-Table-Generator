@@ -108,12 +108,12 @@ python ./scrape_basic_parts_playwright.py
 
 This project visits hundreds of part-detail pages. Adding a small delay between requests is important for both reliability and responsible use:
 
-- **To respect server rate limits and avoid 429 errors.** Many sites apply rate limiting and will respond with **HTTP 429 (Too Many Requests)** when a client sends too many requests in a short time. Slowing down reduces the chance of being throttled or blocked. :contentReference[oaicite:0]{index=0}
+- **To respect server rate limits and avoid 429 errors.** Many sites apply rate limiting and will respond with **HTTP 429 (Too Many Requests)** when a client sends too many requests in a short time. Slowing down reduces the chance of being throttled or blocked.
 
-- **To avoid overloading the website.** “Polite scraping” practices recommend controlling request rate so you don’t create unnecessary load or degrade the site for normal users. :contentReference[oaicite:1]{index=1}
+- **To avoid overloading the website.** “Polite scraping” practices recommend controlling request rate so you don’t create unnecessary load or degrade the site for normal users. 
 
 - **To reduce the risk of IP bans / anti-bot triggers.** Aggressive crawling can trigger alarms, incident response, or even outages; high-volume scraping has been publicly documented as causing operational issues and drawing attention from site operators. :contentReference[oaicite:2]{index=2}
 
-- **To align with crawler guidance (where applicable).** Site owners can publish crawling preferences (e.g., via `robots.txt` and directives such as `Crawl-delay` for some crawlers). Even when not universally supported, the underlying intent is to prevent overwhelming servers. :contentReference[oaicite:3]{index=3}
+- **To align with crawler guidance (where applicable).** Site owners can publish crawling preferences (e.g., via `robots.txt` and directives such as `Crawl-delay` for some crawlers). Even when not universally supported, the underlying intent is to prevent overwhelming servers.
 
 - **To improve data completeness on dynamic pages.** Part detail pages often render content asynchronously (package, breadcrumb/category path, datasheet link, stock). A brief wait helps ensure fields are actually present before extraction, reducing empty columns and retries.
